@@ -1,3 +1,0 @@
-file has been created in the gitup websit!!
-
-file successfully extracted in our vs code
