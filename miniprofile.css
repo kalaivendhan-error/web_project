@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     box-sizing: border-box;
+    height: 100vh;
     /* background-color: blueviolet ; */
     background: linear-gradient(to bottom, rgb(158, 154, 214), black);
     padding-top: 2em;
@@ -14,8 +15,8 @@ body{
 div img{
     width: 200px;
     height: 200px;
-    border-radius:  25% 50%;
-   
+    /* border-radius:  25% 50%; */
+    /* border: 1px solid white; */
 }
 div img:hover{
     transform: scale(120%);
@@ -45,21 +46,10 @@ div h3{
 .main-div p{
     color: rgb(255, 249, 249);
 }
+/*  */
 
-.footer button{
-    border: none;
-    display: block; 
-    margin: auto;  
-    width:300px;
-    padding: 1em;
-    margin-bottom: 1em;
-    background-color: rgb(138, 43, 226, 2);
-    letter-spacing: .3em;
-    font-weight: bold;
-    border-radius: 2%;
-}
 a{
-    border: none;
+    /* border: none; */
     color: white;
     text-decoration: none;
     display: block; 
@@ -72,7 +62,10 @@ a{
     font-weight: bold;
     border-radius: 2%;
 }
-.footer button:hover{
+.footer{
+    margin-top: 10%;
+}
+.footer a:hover{
     background-color: rgb(35, 35, 97);
     color: white;
 }
